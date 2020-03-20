@@ -1,0 +1,17 @@
+body{
+    display: grid;
+    grid-template-columns: 110px 110px 110px 110px 110px;
+    justify-content: center;
+    background-image: url("./back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+form{
+    grid-column: 1/6;
+    margin-top: 250px;
+    margin-bottom: 50px;
+}
+ input{
+    font-size: 25px;
+ }
